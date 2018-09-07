@@ -87,7 +87,7 @@
 				document.getElementById("str-dasut").innerHTML = "<span style='color: white;'>&nbsp섯</span>";
 				break;
 			case 6:
-				document.getElementById("str-yeo").innerHTML = "<span style='color: white;'>&nbsp여</span>";
+				document.getElementById("str-yeo").innerHTML = "<span style='color: white;'>여</span>";
 				document.getElementById("str-yeosut").innerHTML = "<span style='color: white;'>&nbsp섯</span>";
 				break;
 			case 7:
@@ -99,7 +99,7 @@
 				document.getElementById("str-yeodulb").innerHTML = "<span style='color: white;'>&nbsp덟</span>";
 				break;
 			case 9:
-				document.getElementById("str-ah").innerHTML = "<span style='color: white;'>&nbsp아</span>";
+				document.getElementById("str-ah").innerHTML = "<span style='color: white;'>아</span>";
 				document.getElementById("str-ahop").innerHTML = "<span style='color: white;'>&nbsp홉</span>";
 				break;
 			case 10:
