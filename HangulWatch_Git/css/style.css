@@ -1,0 +1,303 @@
+
+@font-face {
+	font-family: IropkeBatangM; src: url('../fonts/IropkeBatangM.ttf');
+	font-family: NotoSansMonoCJKkr; src: url('../fonts/NotoSansMonoCJKkr-Regular.otf');
+	font-family: NotoSansCJKkr-Light; src: url('../fonts/NotoSansCJKkr-Light.otf');
+	font-family: NotoSansCJKkr-Bold; src: url('../fonts/NotoSansCJKkr-Bold.otf');
+	font-family: NotoSansCJKkr-Medium; src: url('../fonts/NotoSansCJKkr-Medium.otf');
+}
+
+div {
+	font-family: NotoSansCJKkr-Medium;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#digital-body {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 0px;
+    left: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+/*
+hour&minutes
+*/
+
+
+#rec-time-tictok {
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    top: 13%;
+    left: 39%;
+}
+
+#str-tictok {
+    font-size: 120%;
+    float: left;
+    color: white;
+}
+
+
+
+#rec-time-first {
+    position: absolute;
+    width: 78%;
+    height: 10%;
+    top: 19%;
+    left: 21%;
+}
+#rec-time-second {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 29%;
+    left: 21%;
+}
+#rec-time-third {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 39%;
+    left: 21%;
+}
+#rec-time-fourth {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 49%;
+    left: 21%;
+}
+#rec-time-fifth {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 59%;
+    left: 21%;
+}
+#rec-time-sixth {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 69%;
+    left: 21%;
+}
+
+
+
+#str-han {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-doo {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-se {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-ne {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-da {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-dasut {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+
+#str-yeo {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-yeosut {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-il {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-ilgop {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-yeod {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-yeodulb {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+
+#str-ah {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-ahop {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-yeol {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-yeolhan {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-yeoldool {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-si {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+
+#str-ja {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-ee {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-sam {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-sa {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-oo {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-sib {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+
+#str-jungbun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-ilbun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-eebun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-sambun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-sabun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-yugbun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+
+#str-jungoh {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-ohbun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-chilbun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-palbun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-gubun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+#str-bun {
+    font-size: 30px;
+    float: left;
+    color: silver;
+}
+
+#rec-ticspace{
+	position: absolute;
+	width: 36%;
+    height: 10%;
+    top: 81%;
+    left: 8%;
+}
+
+#str-ticspace{
+	font-size: 120%;
+    float: right;
+    color: white;
+}
+
+
+
+@media screen and (-tizen-geometric-shape: circle) {
+	
+}

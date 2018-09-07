@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/HangulWatch2" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="L5t2nFqRdd.HangulWatch2" package="L5t2nFqRdd" required_version="2.3.1" ambient_support="enable"/>
+    <tizen:category name="http://tizen.org/category/wearable_clock"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="noname.png"/>
+    <name>HangulWatch2</name>
+    <tizen:privilege name="http://tizen.org/privilege/alarm"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>
