@@ -1,13 +1,15 @@
 # Copyright.2018 JangIsaac(JANG ISAAC)
 
-# �ѱ۽ð� - ���õ� ������ ��ſ���
+# 한글시계 - 오늘도 수고한 당신에게
 
-## �ѱ۽ð� ����ϱ�
-�ٿ�ε� : https://hangulclock.today
+## 한글시계 사용하기
+삼성앱스 업로드 절차 진행중(무료)
+기존 한글시계 : https://hangulclock.today
 
 ### Devices
-������ ��ġ
-Tizen3.0+
+갤럭시 워치
++ Tizen3.0+
++ 360x360 해상도 지원
 
 ## License
 Apache2.0
