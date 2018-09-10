@@ -15,7 +15,7 @@
 Apache2.0
 
 ## Authors
-* ** JangIsaac - dltkr717@naver.com
+* **JangIsaac - dltkr717@naver.com**
 
 ## Ver
-* **1.0** - ProtoType
+* **1.2** - ProtoType
