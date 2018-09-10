@@ -71,7 +71,7 @@
 			}
 			switch (hour) {
 			case 1:
-				document.getElementById("str-han").innerHTML = "<span style='color: white;'>&nbsp한</span>";
+				document.getElementById("str-han").innerHTML = "<span style='color: white;'>한</span>";
 				break;
 			case 2:
 				document.getElementById("str-doo").innerHTML = "<span style='color: white;'>&nbsp두</span>";
@@ -109,7 +109,7 @@
 				document.getElementById("str-yeol").innerHTML = "<span style='color: white;'>&nbsp열</span>";
 				document.getElementById("str-yeolhan").innerHTML = "<span style='color: white;'>&nbsp한</span>";
 				break;
-			case 12:
+			case 12 || 0:
 				document.getElementById("str-yeol").innerHTML = "<span style='color: white;'>&nbsp열</span>";
 				document.getElementById("str-yeoldool").innerHTML = "<span style='color: white;'>&nbsp두</span>";
 				break;
@@ -299,7 +299,6 @@
         	getMonth = "0" + getMonth;
 		}
 
-//        strFullDate = arrDay[getDay] + " " + getDate + " " + arrMonth[getMonth];
         strFullDate = getMonth + "월" + getDate + "일&nbsp" + arrDay[getDay];
         strTictok.innerHTML = strFullDate;
 
@@ -323,8 +322,6 @@
         	hour = datetime.getHours(),
         	minute = datetime.getMinutes(),
         	second = datetime.getSeconds();
-        
-        	
         
         settingSecond(second);
         
