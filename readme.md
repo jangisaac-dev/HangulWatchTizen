@@ -3,8 +3,8 @@
 # 한글시계 - 오늘도 수고한 당신에게
 
 ## 한글시계 사용하기
-삼성앱스 업로드 절차 진행중(무료)
-기존 한글시계 : https://hangulclock.today
++삼성앱스 업로드 절차 진행중(무료)
++기존 한글시계 : https://hangulclock.today
 
 ### Devices
 갤럭시 워치
